@@ -1,1 +1,2 @@
-# hugo-mock-landing-page
+# hugo-mock-landing-page-autodeployed
+This repository automates the deployment of a simple hugo website. The workflow is triggered when code is pushed onto the main branch. It works by using the job "deploy" which first checks out the source repository, initializes the hugo environment, compiles the hugo static files and then publishes to github pages via the url: "https://kesewaaa.github.io/hugo-mock-landing-page-autodeployed/". 
